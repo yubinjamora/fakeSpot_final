@@ -10,7 +10,7 @@ var randomGrade = myGrades[Math.floor(Math.random()* myGrades.length)];
 var fakeSpotRandomGrade = $('#tellAFriendBox_feature_div');
 
 // create new div for the grade
-var newFakeSpotDiv = $("<div id='random-grade-box'>" + "<h4> Reviews Grade </h4>" + randomGrade + "</div>")
+var newFakeSpotDiv = $("<div id='random-grade-box'>" + "<h4> Review Grade </h4>" + randomGrade + "</div>")
 
 // add the new div 
 fakeSpotRandomGrade.append(newFakeSpotDiv);

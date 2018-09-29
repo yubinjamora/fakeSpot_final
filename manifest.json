@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Fakespot Random Review",
+  "version": "0.1.0",
+  "description": "Fakespot Random Reivew Demo",
+  
+  "content_scripts": [
+    {
+      "matches": ["https://www.amazon.com/*/dp/*/*", "https://www.amazon.com/gp/product/*", "https://www.amazon.com/dp/*", "https://www.amazon.com/*/*"],
+      "js": ["jQuery.js", "Fakespot.js"],
+      "css": ["fakeSpot.css"]
+    }
+  ],
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+}

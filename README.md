@@ -1,6 +1,5 @@
 # fakeSpot_final
-
-<Instruction>
+<h2> Intstruction </h2>
   <br>
 1. It shall only display a grade on the right side of any Amazon.com page.
   <br>
